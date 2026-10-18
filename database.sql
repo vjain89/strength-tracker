@@ -53,3 +53,7 @@ end;
 $$;
 revoke all on function public.save_workout(uuid,date,text,text,jsonb) from public, anon;
 grant execute on function public.save_workout(uuid,date,text,text,jsonb) to authenticated;
+
+-- Explicit grants for projects without automatic public-schema grants.
+grant usage on schema public to authenticated;
+grant select, insert, update, delete on public.workouts, public.sets to authenticated;
