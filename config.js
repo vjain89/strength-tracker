@@ -1,5 +1,5 @@
 // Fill in from Supabase → Project Settings → API. Publishable/anon key only.
 window.STRENGTH_CONFIG = {
-  supabaseUrl: 'YOUR_SUPABASE_PROJECT_URL',
-  supabaseAnonKey: 'YOUR_SUPABASE_PUBLISHABLE_KEY'
+  supabaseUrl: 'https://isqkgcahifzwbrkqdhli.supabase.co',
+  supabaseAnonKey: 'sb_publishable_DdH0ICi1QYZ1KwtJPC8iGQ_qf1K2GwR'
 };
